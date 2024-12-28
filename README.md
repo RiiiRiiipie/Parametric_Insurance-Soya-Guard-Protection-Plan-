@@ -33,7 +33,7 @@ b.	If the consecutive rainfall for 5 days exceeds 250mm.
   These are the two triggers points that have impacted the soyabean yield most in past 25 years.
 	The goal is to cover such events and provide the best financial remedy to the policy holders.
 
-## 5. Data Sources
+## 4. Data Sources
 	Extracting the data from a verified source
 a.	The first process of doing the analysis is obtaining the data from a valid source
 b.	we are going to collect the data of the rainfall and the temperature for Madhya Pradesh state (Indore district)
@@ -42,7 +42,7 @@ d.	The yearly data for variables like rainfall and temperature form 2010 to the 
 e.	In case of temperature, we have data like tmin that is minimum temperature for a specific day and tmax is maximum temperature for a specific day.
 f.	It also provides other kind of data but for now we will work with these variables.
 
-## 7. Modelling and Pricing Approach
+## 5. Modelling and Pricing Approach
 	Modeling refers to the process of creating mathematical and statistical representations of various factors that influence risk and financial outcomes.
 a.	In the start of the process, we had three variables they are daily rainfall, minimum temperature per day and maximum temperature per day.
 b.	Importing the data created by combining all the extracted data
@@ -68,16 +68,16 @@ t.	Each Process is explained properly in the python code file with comments.
 a.	For Pricing the policy, we have analyzed the historical data for 25 years according to that we have decided certain  triggers and using those triggers we have formed a policy with reasonable premium and a good pay out in case of loss.
 b.	All the analysis to obtain the expected loss is present in the python script 
 
-## 8. Payout Structure
+## 6. Payout Structure
 Sum Assured (Rs.) 	Monthly Premium (Rs.) (for six months only) 	 Yealy Premium (Rs.)
     40000	                          673	                               	   4033 
 
-## 9. Back-Testing Results Data Sources
+## 7. Back-Testing Results Data Sources
 a.	We have done the Back-Testing using the historical data and have found the results for the year 2002 and 2015 as well as 2009 
 b.	The year 2002 had faced a drought due to which there was an extreme  reduction in the soyabean yield 
 c.	The year 2015 had faced a very heavy rainfall due to which there was a reduction in the soyabean yield
 
 d.	The year 2009 was the year of extreme growth which occurs due to even distribution of the rainfall.
 
-## 10.Conclusion
+## 8.Conclusion
 Parametric insurance is a powerful tool for managing risks associated with measurable and predefined events. By leveraging objective triggers and reliable data, it ensures transparency, speed, and efficiency in payouts, making it an ideal choice for perils like rainfall variability, natural disasters, and agricultural risks. Continuous validation through back-testing and robust methodology enhances its effectiveness and trustworthiness.
